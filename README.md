@@ -59,13 +59,13 @@ iris = sk.datasets.load_iris()
 
 2. Visualize the data matrix.
 
-3. Train a random forest classifier and report its performance
-   using an appropriate evaluation metric.
+3. Train a random forest classifier to predict the target values and 
+   report its performance using an appropriate evaluation metric.
 
 4. Explain how key parameters of the random forest classifier would influence
    its peformance.
 
-5. Repeat 3 and 4 with a supported vector machine.
+5. Repeat with a supported vector machine.
 
 
 ## Text mining
