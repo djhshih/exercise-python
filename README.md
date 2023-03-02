@@ -65,8 +65,6 @@ iris = sk.datasets.load_iris()
 4. Explain how key parameters of the random forest classifier would influence
    its peformance.
 
-5. Repeat with a supported vector machine.
-
 
 ## Text mining
 
@@ -78,3 +76,12 @@ iris = sk.datasets.load_iris()
 3. Obtain the PMID and title of publications for authors with the surname
    "Shih" from the database.
 
+
+## Neural network
+
+1. Implement a full connected feedforward network from scratch using 
+only the `numpy` library with the following layers:
+one input, two hidden, and one output.
+Neurons should use the sigmoid transfer function.
+The network should be trained using
+[backpropagation of errors](https://dustinstansbury.github.io/theclevermachine/derivation-backpropagation).
