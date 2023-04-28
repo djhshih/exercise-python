@@ -24,7 +24,7 @@
 7. Deal with missing values in two different ways:
     
     - remove entries with missing data
-    - fill misisng values with 0
+    - fill missing values with 0
 
 8. Convert column `A` into a cumulative sum.
 
