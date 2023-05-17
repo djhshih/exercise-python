@@ -54,6 +54,7 @@ b = pd.DataFrame(
 1. Load the `iris` dataset by
 ```
 import sklearn as sk
+import sklearn.datasets
 iris = sk.datasets.load_iris()
 ```
 
