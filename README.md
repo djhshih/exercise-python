@@ -1,5 +1,13 @@
 # Programming Exercises for Python
 
+## Instructions
+
+Please submit your Python scripts (or `.ipynb files) and PDF (or HTML) outputs
+in a zip file.
+In your email, do not attach `.py` files directory because many email servers 
+will block them.
+Do *not* include any data files.
+
 ## Data wrangling
 
 1. Create a `DataFrame` named `df` with 6 nrows with the following columns:
