@@ -91,6 +91,7 @@ iris = sk.datasets.load_iris()
 1. Implement a full connected feedforward network from scratch using 
 only the `numpy` library with the following layers:
 one input, two hidden, and one output.
-Neurons should use the sigmoid transfer function.
+Neurons in the first hidden layer should use the sigmoid transfer function;
+those in the second hidden layer should use a ReLU transfer function.
 The network should be trained using
 [backpropagation of errors](https://dustinstansbury.github.io/theclevermachine/derivation-backpropagation).
