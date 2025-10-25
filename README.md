@@ -51,8 +51,9 @@ Implement code to perform the following tasks:
 Allowed dependencies: Any  
 Required output: confusion matrix in which each row is a predicted class  
 
-Using the [IMGT nucleotide sequence data][imgt-fasta-nt], implement a neural
-network to predict the species given a nucleotide sequence.
+Construct training and test data from [IMGT nucleotide sequence data][imgt-fasta-nt].
+Implement a neural network to predict the species given a nucleotide sequence.
+
 
 [imgt-fasta-nt]: https://www.imgt.org/download/GENE-DB/IMGTGENEDB-ReferenceSequences.fasta-nt-WithoutGaps-F+ORF+allP
 
