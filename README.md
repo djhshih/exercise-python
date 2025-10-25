@@ -12,8 +12,21 @@ Do *not* send `.py` files directly because many email servers will block them.
 Allowed dependencies: None  
 Required output: tab-delimited file of CDR amino acid sequences  
 
-Using the reference sequence (AA, WithGaps) fasta file from [IMGT][imgt],
-implement code to generate extract the CDR1 and CDR2 amino acid sequences 
+The IMGT has standardized the amino acid position numbers for
+immunoglobulins (IG) and T cell receptor (TR) genes by carefully aligning 
+the V, D, and J segments of these genes.
+
+See the alignments for [TRAV][trav] as an example.
+Gaps are inserted as necessary to align the sequences and they are 
+represented by dots.
+
+This standardized alignment allows us to refer to specific regions
+such as the CDR1 and CDR2 regions within IG and TR genes using
+standardized ranges (27-38 and 56-65).
+
+Using the [reference sequence][ref-aa-gaps] [fasta][fasta] file 
+from the [IMGT database][imgt],
+implement code to extract the CDR1 and CDR2 amino acid sequences 
 from each T cell receptor V segment allele from human (Homo sapiens).
 
 A subset of your output tab-delimited table should look like:
@@ -24,6 +37,9 @@ TRBV14*01	SGHDN	FVKESK
 TRBV7-8*01	SGHVS	FQNEAQ
 ```
 
+[ref-aa-gaps]: https://www.imgt.org/download/GENE-DB/IMGTGENEDB-ReferenceSequences.fasta-AA-WithGaps-F+ORF+inframeP
+[trav]: https://www.imgt.org/IMGTrepertoire/Proteins/proteinDisplays.php?species=human&latin=Homo%20sapiens&group=TRAV
+[fasta]: https://en.wikipedia.org/wiki/FASTA_format
 [imgt]: https://www.imgt.org/download/GENE-DB/
 
 
