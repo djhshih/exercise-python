@@ -26,8 +26,7 @@ such as CDR1 and CDR2 within IG and TR genes using standardized ranges
 
 Using the [reference sequence][ref-aa-gaps] file from [IMGT][imgt],
 implement code to extract the CDR1 and CDR2 amino acid sequences 
-from each allele of the TR V domain (TRAV and TRBV) from humans
-(Homo sapiens).
+from each V domain allele of the TR gene from humans.
 
 The reference file is in [FASTA][fasta] format.
 
