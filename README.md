@@ -14,7 +14,7 @@ Required output: tab-delimited file of CDR amino acid sequences
 
 The IMGT has standardized the amino acid position numbers for
 immunoglobulins (IG) and T cell receptor (TR) genes by carefully aligning 
-the V, D, and J segments of these genes.
+the V and C domains of these genes.
 
 See the alignments for [TRAV][trav] as an example.
 Gaps are inserted as necessary to align the sequences, and they are 
@@ -26,7 +26,8 @@ such as CDR1 and CDR2 within IG and TR genes using standardized ranges
 
 Using the [reference sequence][ref-aa-gaps] file from [IMGT][imgt],
 implement code to extract the CDR1 and CDR2 amino acid sequences 
-from each T cell receptor V segment allele from human (Homo sapiens).
+from each allele of the TR V domain (TRAV and TRBV) from humans
+(Homo sapiens).
 
 The reference file is in [FASTA][fasta] format.
 
