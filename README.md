@@ -3,9 +3,9 @@
 ## Instructions
 
 Please submit your Python scripts (or `.ipynb` files) and PDF (or HTML) outputs
-in a zip file.
-Do *not* send `.py` files directly because many email servers will block them.
-Include only output files specified below.
+in a zip file.  
+Do *not* send `.py` files directly because many email servers will block them.  
+Include only output files specified below.  
 
 
 ## Text processing
