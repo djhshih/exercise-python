@@ -17,17 +17,18 @@ immunoglobulins (IG) and T cell receptor (TR) genes by carefully aligning
 the V, D, and J segments of these genes.
 
 See the alignments for [TRAV][trav] as an example.
-Gaps are inserted as necessary to align the sequences and they are 
+Gaps are inserted as necessary to align the sequences, and they are 
 represented by dots.
 
-This standardized alignment allows us to refer to specific regions
-such as the CDR1 and CDR2 regions within IG and TR genes using
-standardized ranges (27-38 and 56-65).
+These standardized alignments allow us to refer to specific regions
+such as CDR1 and CDR2 within IG and TR genes using standardized ranges 
+(27-38 and 56-65).
 
-Using the [reference sequence][ref-aa-gaps] [fasta][fasta] file 
-from the [IMGT database][imgt],
+Using the [reference sequence][ref-aa-gaps] file from [IMGT][imgt],
 implement code to extract the CDR1 and CDR2 amino acid sequences 
 from each T cell receptor V segment allele from human (Homo sapiens).
+
+The reference file is in [FASTA][fasta] format.
 
 A subset of your output tab-delimited table should look like:
 ```
@@ -67,7 +68,7 @@ Implement code to perform the following tasks:
 Allowed dependencies: Any  
 Required output: confusion matrix in which each row is a predicted class  
 
-Construct training and test data from [IMGT nucleotide sequence data][imgt-fasta-nt].
+Construct training and test data from [IMGT nucleotide sequence reference][imgt-fasta-nt].
 Implement a neural network to predict the species given a nucleotide sequence.
 
 
