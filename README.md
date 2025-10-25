@@ -3,15 +3,14 @@
 ## Instructions
 
 Please submit your Python scripts (or `.ipynb` files) and PDF (or HTML) outputs
-in a zip file.  
+in a zip file. Include only output files specified below.
 Do *not* send `.py` files directly because many email servers will block them.  
-Include only output files specified below.  
 
 
 ## Text processing
 
-Allowed dependencies: None
-Required output: tab-delimited file of CDR amino acid sequences
+Allowed dependencies: None  
+Required output: tab-delimited file of CDR amino acid sequences  
 
 Using the reference sequence (AA, WithGaps) fasta file from [IMGT][imgt],
 implement code to generate extract the CDR1 and CDR2 amino acid sequences 
@@ -30,8 +29,8 @@ TRBV7-8*01	SGHVS	FQNEAQ
 
 ## Text mining
 
-Allowed dependencies: Any
-Required output: tab-delimited file of PMIDs and titles
+Allowed dependencies: Any  
+Required output: tab-delimited file of PMIDs and titles  
 
 Implement code to perform the following tasks:
 
@@ -49,8 +48,8 @@ Implement code to perform the following tasks:
 
 ## Neural network
 
-Allowed dependencies: Any
-Required output: confusion matrix in which each row is a predicted class
+Allowed dependencies: Any  
+Required output: confusion matrix in which each row is a predicted class  
 
 Using the [IMGT nucleotide sequence data][imgt-fasta-nt], implement a neural
 network to predict the species given a nucleotide sequence.
