@@ -14,7 +14,7 @@ Required output: tab-delimited file of CDR amino acid sequences
 
 Using the reference sequence (AA, WithGaps) fasta file from [IMGT][imgt],
 implement code to generate extract the CDR1 and CDR2 amino acid sequences 
-from each T cell receptor V segment allele.
+from each T cell receptor V segment allele from human (Homo sapiens).
 
 A subset of your output tab-delimited table should look like:
 ```
