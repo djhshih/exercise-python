@@ -68,7 +68,8 @@ Implement code to perform the following tasks:
 Allowed dependencies: Any  
 Required output: confusion matrix in which each row is a predicted class  
 
-Construct training and test data from [IMGT nucleotide sequence reference][imgt-fasta-nt].
+Construct training and test data from the [nucleotide sequence reference][imgt-fasta-nt]
+file from IMGT.
 Implement a neural network to predict the species given a nucleotide sequence.
 
 
