@@ -70,7 +70,8 @@ Required output: confusion matrix in which each row is a predicted class
 
 Construct training and test data from the [nucleotide sequence reference][imgt-fasta-nt]
 file from IMGT.
-Implement a neural network to predict the species given a nucleotide sequence.
+Implement a neural network to predict the species given a nucleotide sequence of
+a part of a IG or TR gene.
 
 
 [imgt-fasta-nt]: https://www.imgt.org/download/GENE-DB/IMGTGENEDB-ReferenceSequences.fasta-nt-WithoutGaps-F+ORF+allP
